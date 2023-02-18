@@ -1,0 +1,12 @@
+.ChinaLore {
+  margin-top: 60px;
+  height: 500px;
+  width: 500px;
+  background-color: #c4c4c4;
+}
+
+#cube {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+}
