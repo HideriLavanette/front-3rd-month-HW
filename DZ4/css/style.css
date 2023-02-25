@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "UbuntuRegular";
+  font-size: 18px;
+  background-image: url(/img/bg.png);
+  background-repeat: no-repeat;
+  background-position: start;
+  background-size: cover;
+}
+
+p, span{
+  color: white;
+}
+
+#header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 60px;
+  padding: 0px 20px;
+  border-radius: 0px 0px 30px 30px;
+  color: white;
+  background-color: #1c1b20;
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 100%), rgba(28, 27, 32, 0.9);
+  backdrop-filter: blur(25px);
+  
+}
+
+.wrapper {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.triggerBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 48px;
+  color: white;
+}
+
+.triggerBlockArrow {
+  height: 4em;
+  margin-bottom: 20px;
+}
+
+.veryCoolBtn {
+  font-family: "UbuntuMedium";
+  display: flex;
+  margin: 0px auto 40px;
+  padding: 10px 20px;
+  gap: 10px;
+  color: #484848;
+  background-color: white;
+  font-size: 20px;
+  border-radius: 30px;
+  border: 0px;
+  transition: box-shadow 100ms;
+}
+
+.veryCoolBtn:hover {
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
+}
+
+.productCard {
+  width: 300px;
+  display: flex;
+  padding: 0px 0px 20px;
+  background-color: #1c1b20;
+  border-radius: 20px;
+  display: none;
+  transition: box-shadow 100ms;
+}
+
+.productCard:hover {
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3);
+}
+
+.imageBlock {
+  display: flex;
+  flex-wrap: wrap;
+justify-content: end;
+  align-content: end;
+  height: 250px;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.reviewsBlock {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgba(28, 27, 32, 0.7);
+  backdrop-filter: blur(25px);
+}
+
+.infoBlock {
+  padding: 0px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.productPrice {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.productPurchases {
+  font-family: "UbuntuLight";
+  color: #c1c1c1;
+}
