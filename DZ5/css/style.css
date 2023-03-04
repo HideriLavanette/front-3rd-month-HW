@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "UbuntuRegular";
+  font-size: 18px;
+  background-repeat: no-repeat;
+  background-position: start;
+  background-size: cover;
+}
+
+.wrapper {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.som {
+  margin: auto;
+}
+
+.usd {
+  margin: auto;
+}
+
+.eur {
+  margin: auto;
+}
